@@ -5,9 +5,9 @@
   <div>
     <div id="g_id_onload"
       data-client_id="310381460275-g8011qapq5li02afmt7hubiu0k1ce6tt.apps.googleusercontent.com"
-      data-login_uri="http://localhost:5173/"
+      data-login_uri="https://google-login-peach.vercel.app/"
       data-itp_support="true"
-      data-allowed_parent_origin="http://localhost:5173/">
+      data-allowed_parent_origin="https://google-login-peach.vercel.app/">
     </div>
     <header>
       <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
