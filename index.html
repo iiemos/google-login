@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.0/firebase.js"></script>
+    <script src="https://accounts.google.com/gsi/intermediatesupport"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyCW_SqMKsLEUc4gLk5nxs7oT7NAVhUhizw",
+        authDomain: "celtic-house-275214.firebaseapp.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+      google.accounts.id.intermediate.notifyParentResize(320);
+    </script>
+  </body>
+</html>
